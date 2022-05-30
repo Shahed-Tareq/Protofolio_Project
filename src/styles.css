@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; scroll-behavior: smooth;}
+body { margin: 0px; font-family: Roboto, "Helvetica Neue", sans-serif; padding: 0px; }
+.row{
+padding: 0px;
+margin: 0px;
+}
+:root{
+    --color_head:rgb(28, 179, 48);
+}
+.header{
+  color: white;
+    background-color:var(--color_head);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+        display: inline-block;
+        padding: 10px 8px;
+        font-size: 25px;
+}
+.date{
+  background-color:#3332; text-align:center ;padding:8px 10px ; font-weight:bold;font-size: 12px;
+}

@@ -1,0 +1,6 @@
+a{
+    padding: 8px;
+    font-size: 20px;}
+a i{
+    color: var(--color_head);
+}

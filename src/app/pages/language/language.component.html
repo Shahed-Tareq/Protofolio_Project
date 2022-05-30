@@ -1,0 +1,19 @@
+<div class=" container language" id="lan">
+<SHP-part1 [Title]="Informationlan"> </SHP-part1>
+<div class="table">
+  <table class="table table-hover table-dark">
+    <thead>
+      <tr>
+        <th scope="col" *ngFor="let item of header">{{item}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of   language |keyvalue let i=index">
+        <th scope="row">{{i+1}}</th>
+        <td>{{item.key}}</td>
+        <td *ngFor="let itemm2 of item.value"> {{itemm2}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div> 
+</div>

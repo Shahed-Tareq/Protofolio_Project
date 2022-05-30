@@ -1,0 +1,15 @@
+table{
+    width: 50%;
+}
+.container{
+background-image: url('../../../assets/images/bgcou.jpg');
+background-repeat: no-repeat;
+    margin: 50px auto;
+    padding: 20px;
+    justify-content: center;
+}
+.table{
+  width: 80%;
+  margin: 0px auto;
+  padding: 15px;
+}

@@ -1,0 +1,9 @@
+<div class="card">
+    <img src={{project_info.img}} alt="Avatar" [style]="'width:100% ; height: 250px;'">
+    <div class="container">
+      <h6>{{project_info.name}}</h6> 
+      <p [style]="'font-size:15px'"> {{project_info.desc}}</p>
+      <p [classList]="'date'">{{project_info.startdate}} to {{project_info.enddate}}</p> 
+      <h5 class="text-center"> <a class="btn btn-dark" href={{project_info.URL}}>  click here</a></h5>
+    </div>
+  </div>

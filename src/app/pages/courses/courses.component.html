@@ -1,0 +1,6 @@
+<div class="container courses" id="cor">
+  <SHP-part1 [Title]="Information"></SHP-part1>
+    <div class="row">
+      <SHP-cour-part2 *ngFor="let item of App_Services" [courses_info]="item" class="col-xl-4 col-md-4 col-12"></SHP-cour-part2>
+     </div>
+  </div>

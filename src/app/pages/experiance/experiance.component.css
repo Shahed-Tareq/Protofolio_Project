@@ -1,0 +1,10 @@
+.education{
+    margin-top: 25px;
+   }
+    .parent{
+      position: relative;
+      background-image: url('../../../assets/images/newone.jpg');
+      width: 100%;
+  
+      background-repeat: no-repeat;
+    }

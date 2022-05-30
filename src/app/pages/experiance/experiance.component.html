@@ -1,0 +1,9 @@
+<div class="container education" id="exp">
+<SHP-part1  [Title]="information"></SHP-part1>
+  <div class="parent">
+    <!-- <div class="e"></div> -->
+    <div class="row">
+     <SHP-exp-part2 *ngFor="let item of Experiance" [info_Exp]="item" class="col-xl-4 col-md-4 col-12"></SHP-exp-part2 >
+     </div>
+  </div>
+</div>
